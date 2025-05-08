@@ -23,3 +23,4 @@ hamburger.addEventListener('click', toggleMobileMenu)
 
 // initialize aos (library for scroll animation)
 AOS.init()
+
