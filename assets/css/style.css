@@ -20,39 +20,6 @@
 	scrollbar-gutter: stable;
 }
 
-.theme-toggle {
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    width: 33px;
-    height: 33px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 300ms cubic-bezier(0.25, 0.32, 0.85, 0.58);
-}
-
-.theme-toggle:hover {
-    background: var(--accent-other-clr);
-    color: var(--secondary-clr);
-}
-
-/* Dark theme styles */
-[data-theme="dark"] {
-    --primary-clr: hsl(0, 0%, 0%);
-    --secondary-clr: hsl(0, 0%, 11%);
-    --main-clr: hsl(0, 0%, 95%);
-}
-
-[data-theme="light"] {
-    --primary-clr: hsl(0, 0%, 95%);
-    --secondary-clr: hsl(0, 0%, 85%);
-    --main-clr: hsl(0, 0%, 11%);
-    --other-clr: hsl(0, 0%, 30%);
-    --tag-clr: hsl(0, 0%, 70%);
-}
-
 
 /* style webkit browsers (chrome, edge) scrollbar */
 ::-webkit-scrollbar {
