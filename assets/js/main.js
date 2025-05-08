@@ -17,3 +17,9 @@ const toggleMobileMenu = () => {
 	socials.classList.toggle('open')
 	document.body.classList.toggle('open')
 }
+
+navLinks.forEach(link => link.addEventListener('click', toggleMobileMenu))
+hamburger.addEventListener('click', toggleMobileMenu)
+
+// initialize aos (library for scroll animation)
+AOS.init()
