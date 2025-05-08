@@ -46,9 +46,6 @@ This project is open-source under the **MIT License**.
 
 ---
 
-### **Need Help?**  
-📧 Contact: [your-email@example.com](mailto:your-email@example.com)  
-
 🚀 **Happy Coding!**  
 
 ---
