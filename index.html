@@ -37,8 +37,12 @@
 
     <!-- boxicons -->
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-    <script src="./script.js" defer></script>
+
+    <!--== Main CSS ==-->
+    <link rel="stylesheet" href="assets/css/main.css">
+
     <title>John Doe</title>
+
 </head>
 
 <body>
@@ -169,32 +173,40 @@
             </div>
         </section>
 
-        <!--About Section-->
-        <section class="about" id="about">
-            <div class="container">
-                <article class="about-text slide-in-top">
-                    <h2 class="section-title">About Me</h2>
-                    <p>
-                        I am a self-taught Frontend Developer based in Lagos, Nigeria. I
-                        specialize in building exceptional digital experiences. I am
-                        passionate about web and mobile development and love to create
-                        beautiful and functional user interfaces.
-                    </p>
-                    <p>
-                        I have a strong background in HTML, CSS, JavaScript, and React,
-                        and I am always eager to learn new technologies and improve my
-                        skills.
-                    </p>
-                </article>
-                <img
-                src="./assets/about.png"
-                alt="coding desk"
-                class="fade-in about" />
-            </div>
-        </section>
+			<!-- about section -->
+			<section class="about-me" id="about">
+				<div class="container" data-aos="fade-up">
+					<img src="./assets/williams.jpg" alt="Williams Samuel" />
+					<article>
+						<p class="subtitle">Who is Williams Samuel?</p>
+						<h2 class="title">A Bit About Me</h2>
+						<div class="about">
+							<p>
+								I'm passionate about deciphering challenging problems and
+								creating exceptional digital experience.
+							</p>
+							<p>
+								As I've grown as a developer, I've contributed to projects and
+								worked with other developers to create working applications and
+								have written code that are maintainable and easy to understand.
+							</p>
+							<p>
+								Through my studies, I've gained a solid understanding of web
+								development concepts, and have dedicated a lot of time to apply
+								these concepts to real-world scenarios and applications.
+							</p>
+							<p>
+								When I'm not trying to build, learning, exploring and thinking
+								about how to make things better 😉, you can catch me watching
+								football matches ⚽.
+							</p>
+						</div>
+					</article>
+				</div>
+			</section>
 
         <!--Skills Section-->
-        <section class="skills" id="skills">
+        <section class="skills" id="skills" data-aos="fade-up">
             <div class="container">
                 <article class="skills-text slide-in-top">
                     <h2 class="section-title">Skills</h2>
@@ -241,5 +253,7 @@
                         <p class="skill-name">Redux</p>
                     </div>
 
+    <!--=================== Main JS ====================-->
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
