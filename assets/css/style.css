@@ -425,3 +425,12 @@ small {
 .download-link:focus {
 	outline: none;
 }
+
+/*******************
+		ABOUT SECTION
+*************************/
+.about-me {
+	margin-block-start: var(--section-mt);
+	background: var(--secondary-clr);
+	padding: var(--section-mt) 1rem;
+}
