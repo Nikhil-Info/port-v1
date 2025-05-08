@@ -517,3 +517,20 @@ small {
 .project:nth-child(even) div {
 	order: 1;
 }
+
+.project h3 {
+	font-size: clamp(2rem, 3vw, 4rem);
+	font-weight: 500;
+	letter-spacing: 5px;
+	color: var(--other-clr);
+}
+
+.project h2 {
+	padding-block-start: clamp(1.5rem, 2vw, 3rem);
+	font-size: clamp(2.5rem, 3vw, 4rem);
+}
+
+.project p {
+	padding-block-start: 1.5rem;
+	max-width: 500px;
+}
