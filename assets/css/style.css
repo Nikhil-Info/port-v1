@@ -638,3 +638,26 @@ small {
 .other-projects p {
 	font-size: clamp(1.15rem, 1vw, 1.3rem);
 }
+
+/*******************
+		CONTACT SECTION
+*************************/
+.contact {
+	margin-block-start: var(--section-mt);
+	padding: 4rem 1rem;
+}
+
+.mail-link {
+	display: flex;
+	margin-block-start: var(--section-mt);
+	width: max-content;
+	transition: var(--transition-clr);
+	position: relative;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.mail-link:hover {
+	color: var(--accent-clr);
+	text-decoration: none;
+}
