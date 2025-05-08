@@ -661,3 +661,63 @@ small {
 	color: var(--accent-clr);
 	text-decoration: none;
 }
+
+/*******************
+		FOOTER
+*************************/
+.footer {
+	margin-block-start: var(--section-mt);
+	background: var(--secondary-clr);
+	padding: 0 1rem;
+}
+
+.footer .container {
+	margin-block-start: var(--section-mt);
+	font-size: 1.35rem;
+	padding: 2rem 1rem;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.footer em {
+	color: var(--other-clr);
+}
+
+.footer div {
+	display: flex;
+	align-items: center;
+	gap: 5rem;
+}
+
+.footer ul {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+}
+
+.footer a {
+	letter-spacing: 1px;
+	transition: var(--transition-clr);
+	position: relative;
+}
+
+.footer a:hover {
+	color: var(--accent-clr);
+}
+
+.top {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	line-height: 0;
+	font-size: 1.15rem;
+}
+
+.scroll {
+	display: flex;
+	flex-direction: column;
+	gap: 1.2rem;
+	align-items: flex-end;
+}
