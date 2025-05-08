@@ -4,3 +4,9 @@ const setCurrentYear = () => {
 	date.textContent = currentYear
 }
 setCurrentYear()
+
+// hamburger menu
+const hamburger = document.querySelector('.hamburger')
+const navList = document.querySelector('.nav-list')
+const socials = document.querySelector('.social-nav')
+const navLinks = document.querySelectorAll('.nav-links')
