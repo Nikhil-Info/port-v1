@@ -360,3 +360,17 @@ small {
 .intro {
 	color: var(--other-clr);
 }
+
+.hero img {
+	max-width: 375px;
+}
+
+.hero .code {
+	filter: drop-shadow(0 0 0.75rem var(--secondary-clr));
+}
+
+.hero-btn-container {
+	margin-block-start: 5rem;
+	display: flex;
+	/* align-items: center; */
+}
