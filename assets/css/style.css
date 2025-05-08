@@ -499,3 +499,21 @@ small {
 	place-items: center;
 	gap: 5rem;
 }
+
+.project-img {
+	transition: opactiy 300ms ease-in-out;
+	position: relative;
+	display: inline-block;
+	height: 100%;
+}
+
+.project-img:hover {
+	opacity: 0.9;
+}
+
+.project:nth-child(even) a {
+	order: 2;
+}
+.project:nth-child(even) div {
+	order: 1;
+}
