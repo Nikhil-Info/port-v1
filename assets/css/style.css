@@ -402,3 +402,26 @@ small {
 	transform: translate3d(50%, -50%, 0) scale3d(0, 0, 0);
 	transition: transform 0.45s ease-in-out;
 }
+
+.hire-btn:hover {
+	cursor: pointer;
+	color: hsl(0, 0%, 9%);
+	border: 0;
+}
+
+.hire-btn:hover::before {
+	transform: translate3d(50%, -50%, 0) scale3d(15, 15, 15);
+}
+
+.download-link {
+	color: var(--other-clr);
+	transition: color 0.45s ease-in-out;
+}
+
+.download-link:hover {
+	color: #fff;
+}
+
+.download-link:focus {
+	outline: none;
+}
