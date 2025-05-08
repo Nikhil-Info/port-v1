@@ -485,3 +485,17 @@ small {
 	margin-block-start: var(--section-mt);
 	padding: 4rem 1rem;
 }
+
+.projects {
+	padding-block-start: 5rem;
+	display: flex;
+	flex-direction: column;
+	gap: 12rem;
+}
+
+.project {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	place-items: center;
+	gap: 5rem;
+}
