@@ -23,7 +23,7 @@ A simple static website built with **HTML, CSS, and JavaScript**.
 
 ## **Folder Structure**  
 ```
-your-project/  
+Project_file_structure/  
 ├── index.html          # Main HTML file  
 ├── css/                # CSS styles  
 │   └── style.css       # Main stylesheet  
