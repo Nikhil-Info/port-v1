@@ -1,56 +1,60 @@
-# **Static Website Project**  
+# **John Doe - Portfolio Website**  
 
-A simple static website built with **HTML, CSS, and JavaScript**.  
+A responsive portfolio website built with **HTML, CSS, and JavaScript**, showcasing projects and skills.
 
 ## **Features**  
-✅ Responsive design  
-✅ Clean and modern UI  
+✅ Fully responsive design (Mobile, Tablet, Desktop)  
+✅ Modern UI with smooth animations  
+✅ Project showcase section  
 ✅ Interactive elements with JavaScript  
-✅ Easy to customize  
+✅ Easy to customize and extend  
 
 ## **Technologies Used**  
-- **HTML5** (Structure)  
-- **CSS3** (Styling)  
-- **JavaScript** (Interactivity)  
+- **HTML5** (Semantic Structure)  
+- **CSS3** (Flexbox, Grid, Animations)  
+- **JavaScript** (DOM Manipulation, AOS Animations)  
+- [AOS Library](https://michalsnik.github.io/aos/) (Scroll Animations)  
+- [Boxicons](https://boxicons.com/) (Vector Icons)  
 
 ## **Setup & Installation**  
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/Nikhil-Info/port-v1.git
+   cd port-v1
    ```
-2. **Open in a browser**  
-   - Simply open `index.html` in any modern browser (Chrome, Firefox, Edge).  
+
+2. **Run locally**  
+   - Open `index.html` in any modern browser (Chrome/Firefox/Edge)  
+   - Or use Live Server extension in VS Code  
 
 ## **Folder Structure**  
 ```
-Project_file_structure/  
-├── index.html          # Main HTML file  
-├── css/                # CSS styles  
-│   └── style.css       # Main stylesheet  
-├── js/                 # JavaScript files  
-│   └── script.js       # Main JavaScript file  
-├── images/             # All images/assets  
-└── README.md           # This file  
+portfolio/
+├── index.html              # Main entry point
+├── assets/
+│   ├── css/                # Stylesheets
+│   │   └── style.css       # Main styles
+│   ├── js/                 # JavaScript
+│   │   └── main.js         # Interactive elements
+│   └── imgs/               # All assets
+│       ├── projects/       # Project screenshots
+│       └── icons/          # Icons & logos
+├── LICENSE
+└── README.md               # Documentation
 ```
 
-## **How to Customize**  
-- Edit `index.html` to change content.  
-- Modify `css/style.css` for styling updates.  
-- Update `js/script.js` for interactive features.  
-
-## **Live Demo**  
-🔗 [View Demo](https://your-website-link.com)  
+## **Customization Guide**  
+- **Content**: Edit `index.html` for bio, projects, and links  
+- **Styling**: Modify `assets/css/style.css` for colors, fonts, layout  
+- **Projects**: Update project sections with your own work  
+- **Animations**: Adjust AOS settings in `main.js`  
 
 ## **License**  
-This project is open-source under the **MIT License**.  
+📄 MIT License - See [LICENSE](LICENSE) for details.  
 
 ---
 
-🚀 **Happy Coding!**  
+🚀 **Deployment Tip**:  
+Host for free on GitHub Pages by enabling it in repository settings!
 
 ---
-
-### **Preview**  
-![Website Screenshot](./images/screenshot.png)  
-
-*(Replace `your-username`, `your-repo`, and demo links with your actual details.)*
