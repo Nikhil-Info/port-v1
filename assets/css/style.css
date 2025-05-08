@@ -260,3 +260,22 @@ small {
 .skip-to-content:focus {
 	transform: translateY(0);
 }
+
+/*******************
+		HEADER
+*************************/
+.nav {
+	width: 100%;
+	padding: 0 1rem;
+}
+
+.nav .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0.85rem 2rem;
+	background: var(--secondary-clr);
+	margin-block-start: 1.15rem;
+	border-radius: 0.5rem;
+	font-size: 1.4rem;
+}
